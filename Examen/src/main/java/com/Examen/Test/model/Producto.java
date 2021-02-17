@@ -19,7 +19,8 @@ public class Producto {
 	@Id
 	@GeneratedValue
 	private int id;
-	private String name;
+	private int item;
+	private String nombre;
 	private String cantidad;
-	private  String precio;
+	private String codigo;
 }
